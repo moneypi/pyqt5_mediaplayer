@@ -1,4 +1,15 @@
 # pyqt5_mediaplayer
+# 安装依赖
+代码依赖pyqt5和opencv  
+```bash
+pip install PyQt5
+pip install opencv-python
+```
+Windows下需要安装[Lavfilter解码器](https://github.com/Nevcairiel/LAVFilters/releases)  
+Ubuntu下需要安装gstreamer1.0-plugins-ugly
+```bash
+sudo apt install gstreamer1.0-plugins-ugly -y
+```
 # 快捷键  
 在最开始启动、或播放结束时，按空格键，打开媒体文件  
 播放时，空格键切换暂停和播放  
